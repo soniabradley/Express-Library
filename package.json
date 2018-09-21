@@ -1,0 +1,29 @@
+{
+  "name": "express-library",
+  "version": "1.0.0",
+  "description": "book-library",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soniabradley/Express-Library.git"
+  },
+  "keywords": [
+    "book-library"
+  ],
+  "author": "soniabradley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/soniabradley/Express-Library/issues"
+  },
+  "homepage": "https://github.com/soniabradley/Express-Library#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mysql": "^2.16.0",
+    "sequelize": "^4.38.1"
+  }
+}
