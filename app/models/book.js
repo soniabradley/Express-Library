@@ -4,14 +4,14 @@
 // Require the sequelize library
 var Sequelize = require("sequelize");
 // Require the connection to the database (connection.js)
-var sequelize = require("..config/connection.js")
+var sequelize = require("../config/connection.js")
 // Create a "Book" model with the following configuration
 var Book = sequelize.define('book', {
-    id: {
-      type: Sequelize.INTEGER,
-      autoIncrement: true,
-      primaryKey: true
-    },
+    // id: {
+    //   type: Sequelize.INTEGER,
+    //   autoIncrement: true,
+    //   primaryKey: true
+    // },
     title: {
       type: Sequelize.STRING
     },
@@ -22,7 +22,7 @@ var Book = sequelize.define('book', {
         type: Sequelize.STRING
     },
     pages: {
-          type: Sequelize.STRING
+          type: Sequelize.INTEGER
     }
       },{timestamps: false
       });

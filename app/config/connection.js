@@ -12,7 +12,7 @@ var sequelize = new Sequelize("sequelize_library", "root", "MyNewPass", {
   pool: {
     max: 5,
     min: 0,
-    idle: 10000
+    idle: 10000,
   }
 });
 
